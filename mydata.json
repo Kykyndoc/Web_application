@@ -1,0 +1,85 @@
+[
+{
+  "model": "news.post",
+  "pk": 1,
+  "fields": {
+    "author": 1,
+    "categoryType": "NW",
+    "dateCreation": "2024-11-22T15:11:27.466Z",
+    "title": "Победа в футбольных соревнованиях",
+    "text": "Наша команда победила в городских соревнованиях по футболу",
+    "rating": 4
+  }
+},
+{
+  "model": "news.post",
+  "pk": 2,
+  "fields": {
+    "author": 2,
+    "categoryType": "AR",
+    "dateCreation": "2024-11-22T15:14:28.010Z",
+    "title": "Лучшие студенты колледжа",
+    "text": "Лучшим студентом нашего колледжа в этом году стал Иван Иванов",
+    "rating": -2
+  }
+},
+{
+  "model": "news.post",
+  "pk": 3,
+  "fields": {
+    "author": 2,
+    "categoryType": "AR",
+    "dateCreation": "2024-11-22T15:16:47.897Z",
+    "title": "Олимпиада по программированию",
+    "text": "В олимпиаде победил студент Иван Иванов",
+    "rating": 2
+  }
+},
+{
+  "model": "news.post",
+  "pk": 60,
+  "fields": {
+    "author": 3,
+    "categoryType": "NW",
+    "dateCreation": "2024-12-15T08:50:40.275Z",
+    "title": "Создать новость",
+    "text": "Создать новостьСоздать новостьСоздать новостьСоздать новость",
+    "rating": 0
+  }
+},
+{
+  "model": "news.category",
+  "pk": 1,
+  "fields": {
+    "name": "Sport",
+    "subscribers": [
+      3,
+      5
+    ]
+  }
+},
+{
+  "model": "news.category",
+  "pk": 2,
+  "fields": {
+    "name": "Education",
+    "subscribers": []
+  }
+},
+{
+  "model": "news.category",
+  "pk": 3,
+  "fields": {
+    "name": "Competitions",
+    "subscribers": []
+  }
+},
+{
+  "model": "news.category",
+  "pk": 4,
+  "fields": {
+    "name": "Best students",
+    "subscribers": []
+  }
+}
+]
